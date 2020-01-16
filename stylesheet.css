@@ -302,8 +302,9 @@ main{
 .heading{
 
 	margin-top: 60px;
+	padding: 0px;
 	width: 100%;
-	/*background-color:red;*/
+	background-color:red;
 }
 
 
