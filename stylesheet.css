@@ -3,14 +3,16 @@
 header{
 	width: 100%;
 	height:100vh;
-	background-image: linear-gradient(to left, #FFFAFA 85%, #B2D732 20%);
+	/*background-image: linear-gradient(to left, #FFFAFA 85%, #B2D732 20%);*/
 
 }
 .navsection{
-	width: 100%; height: 20vh;
+	width: 100%; height: 5vh;
 	display: flex; justify-content: space-around;
 	align-items: center;
-	background-image: linear-gradient(to top, #fff 80%, #B2D732 20%);
+	
+	
+	/*background-image: linear-gradient(to top, #fff 80%, #B2D732 20%);*/
 }
 .logo
 {
@@ -72,14 +74,7 @@ main{
 	justify-content: space-around;
 	align-items: center;
 }
-/*.rightside{
-	border-radius: 100% 58% 100% 75% / 100% 0% 100% 2%  ;
-	background-color: lightblue;
-}*/
-/*.rightside img{
-	max-width: 500px;
-	height: auto;
-}*/
+
 .leftside{
 	color: #000;
 	text-transform: uppercase;
@@ -89,21 +84,6 @@ main{
 	margin-bottom: 50px;
 	position: relative;
 }
-/*.leftside h3:after{
-	content: "";
-	width: 400px;
-	height: 3px;
-	position: absolute;
-	top: 69%;
-	left: 31.9%;
-	background: #000;
-
-}*/
-/*.leftside h3{
-	margin-top: 20px;
-	font-size: 80px;
-	margin-bottom: 5%;*/
-	
 
 }
 .leftside .btn1{
@@ -147,6 +127,17 @@ main{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);}
 
 
+ .dn{
+  		width: 100%;
+  		height: 35px;
+  		
+  		background-color: black;
+  		/*margin-bottom: 100px;*/
+  }
+
+
+
+
 
 
 
@@ -165,7 +156,7 @@ main{
 	width: 100%;
 	color: #fff;
 	height: 30px;
-	background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+	/*background-image: linear-gradient(#8d98e3 40%, #854fee 60%);*/
 	padding-left: 30px;
 	padding-top: 5px;
 	box-sizing: border-box;
@@ -188,33 +179,20 @@ nav{
 header{
 	width: 100%;
 	height:100vh;
-	background-image: linear-gradient(to left, #FFFAFA 73%, #B2D732 20%);
-}
-main .leftside h1{
-	font-size: 45px;
-	margin-bottom: 20px;
-}
-main .leftside h3{
-	font-size: 25px;
-
-}
+	/*background-image: linear-gradient(to left, #FFFAFA 80%, #B2D732 20%);*/
+	position: relative;
 }
 
-/*@media (min-width: 769px){
-	main .leftside h1{
-	font-size: 45px;
-	margin-bottom: 20px;
-}
-main .leftside h3{
-	font-size: 25px;
+.navsection{
+	margin-top: 10px;
+
+
 
 }
-header{
-	width: 100%;
-	height:100vh;
-	background-image: linear-gradient(to left, #FFFAFA 73%, #B2D732 20%);
+main{
+	margin-top: 20px;
 }
-}*/
+
 
 
 
@@ -225,8 +203,8 @@ header{
 	
 	nav a{
 		color: red;
-		font-size: 10px;
-		height: auto;
+		font-size: 5px;
+		/*height: auto;*/
 		
 
 }
@@ -238,7 +216,7 @@ header{
 {
 	
 	nav a{
-		color: red;
+		/*color: red;*/
 		font-size: 15px;
 		height: auto;
 		
@@ -248,7 +226,7 @@ header{
 header{
 	width: 100%;
 	height:100vh;
-	background-image: linear-gradient(to left, #FFFAFA 73%, #B2D732 20%);
+	/*background-image: linear-gradient(to top, #FFFAFA 73%, #B2D732 20%);*/
 }
 main .leftside h1{
 				font-size: 30px;
