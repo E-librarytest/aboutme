@@ -252,6 +252,7 @@ main{
 .typewriter h1 {
   color: black;
   font-size: 25px;
+	text-align: center;
 
   padding-left: 2%;
   font-family: 'Special Elite', cursive;
