@@ -147,14 +147,14 @@ main{
 
 
 
-.typewriter{
+/*.typewriter{*/
 	/*padding-top: 50px;*/
-	font-size: 20px;
+	/*font-size: 20px;
 	font-weight: bold;
 	padding-top: 16px;
-	padding-left: 100px;
+	padding-left: 100px;*/
 	
-}
+/*}*/
 
 
 /* DEMO-SPECIFIC STYLES */
@@ -253,7 +253,6 @@ main{
 .typewriter h1 {
   color: black;
   font-size: 15px;
-	text-align: center;
 
   padding-left: 2%;
   font-family: 'Special Elite', cursive;
@@ -299,7 +298,8 @@ main{
 		
 
 }
-	.heading{
+
+.heading{
 
 	margin-top: 60px;
 	width: 100%;
@@ -312,7 +312,7 @@ main{
 .typewriter h1 {
   color: black;
   font-size: 8px;
-	text-align: center;
+  text-align: center;
 
   padding-left: 0%;
   font-family: 'Special Elite', cursive;
@@ -330,7 +330,7 @@ main{
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
+  from { width: 0% }
   to { width: 100% }
 }
 
@@ -347,9 +347,6 @@ main{
 
 
 
-
-
-}
 
 
 }
@@ -376,3 +373,11 @@ main .leftside h1{
 main .leftside h3{
 	font-size: 15px;
 }
+}
+
+
+
+
+
+
+
