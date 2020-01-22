@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Library</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous" />
+	
+
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ 
+
+</head>
+<body>
+
+	<div class="header" id="topheader">
+
+
+		<nav class="navbar navbar-expand-lg">
+			<div class="container text-uppercase p-2">
+							  <a class="navbar-brand font-weight-bold text-white" href="#">E - Library</a>
+							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							    <span class="navbar-toggler-icon"></span>
+							  </button>
+
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav ml-auto">
+					      <li class="nav-item active">
+					        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#">Services</a>
+					      </li>
+
+					           <li class="nav-item">
+					        <a class="nav-link" href="#">About Us</a>
+					      </li>
+					           <li class="nav-item">
+					        <a class="nav-link" href="#">Contact Us</a>
+					      </li>
+
+
+					    </ul>
+
+					  </div>
+			</div>
+	</nav>
+
+
+
+
+
+						<section class="header-section">
+							
+										<div class="center-div">
+														<h1 class="font-weight-bold">H. R. PATEL INSTITUTE OF PHARMACEUTICAL EDUCATION AND RESEARCH</h1>
+															<p>"Serving Nation's Health"</p>
+									        					<div class="center-btn">
+									        				
+												        				<a href="signlog.html" target="_blank">
+												        				LOG IN</a>
+												        				<a href="signlog.html" target="_blank">SING UP</a>
+									        					</div>
+
+									        					  <div class="container1">
+													<p>E - Learning <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+											</div>
+											
+
+										</div>
+
+											
+
+
+
+
+						</section>
+
+
+
+
+
+</div>
+
+
+<!-- ******************header part end**************** -->
+
+<!-- ******************Extra Div Start**************** -->
+
+
+<section class="extradiv">
+
+	<div class="container">
+		
+
+				<div class="row">
+							
+							<div class="ex-div col-lg-4 col-md-4 col-md-12">
+								<a href="#"><i class="fa-3x fa fa-desktop" aria-hidden="true"></i></a>
+								<h2>Test1</h2>
+
+								<p> designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available.</p>
+
+							</div>
+
+							<div class="ex-div col-lg-4 col-md-4 col-md-12">
+								<a href="#"><i class="fa-3x fas fa-book-reader"></i></a>
+								<h2>Test2</h2>
+
+								<p> designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available.</p>
+
+							</div>
+
+							<div class="ex-div col-lg-4 col-md-4 col-md-12">
+								<a href="#"><i class="fa-3x fas fa-user-graduate"></i></a>
+								<h2>Test3</h2>
+
+								<p> designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available.</p>
+
+							</div>
+
+				</div>
+	</div>
+	
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ******************Extra Div end**************** -->
+  
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script>
+
+	const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["Learn","understand","and","Implement"];
+
+const typingDelay = 200;
+const erasingDelay = 100;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+  	setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+	if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+	
+
+
+</script>
+
+
+</body>
+</html>
