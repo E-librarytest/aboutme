@@ -1,0 +1,214 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Libre Baskerville', serif;
+}
+/* ..........backgournd and blur start........... */
+body{
+
+   
+    
+}
+/* ..........backgournd and blur end........... */
+
+
+
+/* ..........socail icon start........... */
+
+.socialicon{
+
+    width: 50px;
+    height: 300px;
+    
+    text-align: center;
+    position: fixed;
+    margin-top: 250px;
+}
+.socialicon ul li{
+
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialicon ul li a i{
+
+    font-size: 40px;
+    color: black;
+}
+
+.socialicon ul li a i:hover{
+
+    transform: translateX(10px);
+    animation-duration: 0.5s;
+    animation: ease;
+    
+}
+
+/* ..........Socail Icon End........... */
+
+/* ..........Main div start........... */
+
+.main{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url(../static/background.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* backdrop-filter: blur(3px); */
+    background-repeat: no-repeat;
+
+	
+}
+
+.main h1{
+
+    font-size: 13rem;
+    
+    color: white;
+    
+}
+
+.main p{
+
+    color:white;
+    
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.divi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.down-arrow{
+
+    width: 40%;
+    height: 100px;
+        
+}
+
+/* ..........Main Div end........... */
+
+/* ..........Center div start........... */
+
+.center{
+
+    height: 100vh;
+    width: 100%;
+   /* display: flex;
+   align-items: center; */
+    background-color: white;
+
+
+   
+    
+}
+
+ .about{
+
+    font-size: 4rem;
+    margin-top: 100px;
+}
+
+.pic{
+
+    width: 100%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+
+.pic img{
+
+    width: 300px;
+    height: 300px;
+    
+}
+
+.info{
+    width: 100%;
+    margin-top: 20%;
+    
+
+}
+
+.info button{
+
+    padding: 8px;
+    margin-top: 10px;
+}
+
+/* ..........Center div end........... */
+
+/* ..........skill div start........... */
+.bar{
+
+    width: 100%;
+    height: 400px;
+   
+   
+}
+.barbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bar .barbox .chart{
+
+    position: relative;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 110px;
+}
+.bar .barbox canvas{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skillsname{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    
+    
+}
+
+.skillsname h3{
+
+    font-size: 15px;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+
+/* ..........skill div end........... */

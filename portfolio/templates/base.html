@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+<link rel="stylesheet" href="portfolio.css">
+
+<!-- .............fonts.............. -->
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+
+
+<!-- ...............font awesome............... -->
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous" />
+<!-- ...............End font awesome............... -->
+
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+<!-- .................side icon start................. -->
+  <div class="div socialicon">
+    <ul>
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-github"></i></a></li>
+    </ul>
+  </div>
+<!-- .................side icon end................. -->
+
+<!-- .................Main Container start................. -->
+
+<div class="container-fluid main">
+
+
+<div class="div header">
+  <h1 >Hello;</h1>
+  <P>I'm Mayur Mali. Web Developer</P>
+  <div class="divi">
+
+<a href="#center-div"><img src="/static/down-arrow.png" class="down-arrow" alt="down-arrow"></a>
+  
+</div>
+
+</div>
+
+
+</div>
+
+<!-- .................Main container end................. -->
+
+<!-- .................Center div start................. -->
+
+<div class="div center" id="center-div">
+  <h1 class="text-center about">About Me</h1>
+  <div class="row container m-auto">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+      <div class="pic ">
+          <img src="/static/pic3.png" alt="pic">        
+      </div>
+
+    </div>
+
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+      <div class="info">
+        <h1>Mayur C. Mali</h1>
+        <h3>web developer
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis voluptates consequatur ut sequi et incidunt dolores doloremque deleniti, enim mollitia.</p>
+        <button>Download Resume</button>
+      </div>
+
+    </div>
+
+    
+  </div>
+
+  
+</div>
+
+<!-- .................Center div end................. -->
+<!-- .................skills div start................. -->
+<div class="container bar">
+  <h1 class="text-center mb-5">Technical Skills</h1>
+  <div class="barbox">
+    <div class="chart" data-percent="90" data-scale-color="#ffb400">90%</div>
+    <div class="chart" data-percent="80" data-scale-color="#ffb400">80%</div>
+    <div class="chart" data-percent="85" data-scale-color="#ffb400">85%</div>
+    <div class="chart" data-percent="60" data-scale-color="#ffb400">60%</div>
+    <div class="chart" data-percent="50" data-scale-color="#ffb400">50%</div>
+    <div class="chart" data-percent="70" data-scale-color="#ffb400">70%</div>
+  </div>
+  <div class="skillsname">
+    <h3>html</h3>
+    <h3>css</h3>
+    <h3>bootstrap</h3>
+    <h3>JavaScript</h3>
+    <h3>django</h3>
+    <h3>python</h3>
+
+  </div>
+
+</div>
+
+
+<!-- .................skills div end................. -->
+
+
+
+
+
+<!-- .................skills prograss bar js file start................. -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+<script src="/js/jquery.easypiechart.js" ></script>
+
+<script>
+    $(function() {
+        $('.chart').easyPieChart({
+            //your options goes here
+        });
+    });
+</script>
+
+  <!-- .................skills prograss bar js file end................. -->  
+</body>
+</html>
