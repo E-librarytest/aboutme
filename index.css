@@ -28,6 +28,10 @@
     box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.75);
     display: flex;
     align-items: center;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+
 
     
 }
@@ -45,15 +49,18 @@
 .sidebar{
     width: 90px;
     height: 100vh;
-    
+
     position: fixed;
+    background-color: #fff;
     padding-top: 0px;
     text-align: center;
-    -webkit-box-shadow: 3px 0px 5px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 3px 0px 5px -2px rgba(0,0,0,0.75);
-    box-shadow: 3px 0px 5px -2px rgba(0,0,0,0.75);
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
 }
 
+.sidebar ul{
+
+    margin-top: 150px;
+}
 .sidebar ul li{
     
     display: flex;
@@ -84,8 +91,8 @@
 
 .letest{
 
-    width: 820px!important;
-    height: 500px;
+    width: 770px!important;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,8 +107,8 @@
 
 .letest img{
 
-    width: 820px;
-    height: 500px;
+    width: 770px;
+    height: 400px;
     
 
 }
@@ -195,11 +202,23 @@ header {
     
 }
 
+.wrapper{
+
+    z-index: 1000;
+    background-color: #fff;
+}
+
+header{
+    z-index: 223;
+    background-color: #fff;
+}
+
 nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
     z-index: 999;
+    background-color: #fff;
     
 }
 
@@ -327,21 +346,68 @@ nav ul li a:hover{
     left: 0;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 180px;
-    height: 50px;
+    width: 100px;
+    height: 32px;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
+    
     
 
 }
+.captions-slider1{
+
+    position: absolute;
+    top: 160px;
+    left: 394px;
+    color:black;
+    background-color: white;
+    width: 351px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    
+
+}
+
+.bookinfo{
+
+    width:320px;
+    height: 130;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.bookinfo a{
+
+    padding: 10px 30px;
+    border-radius: 100px;
+    background-color: #0277bd;
+    color: white;
+}
+
+.bookinfo a:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.bookinfo a:hover{
+    text-decoration: none;
+    background-color:rgb(1, 83, 132);
+    color: #fff;
+}
+
+
+
 .captions-slider p{
 
-    font-size: 40px;
-    text-transform: uppercase;
+    font-size: 1.25rem;
+    text-transform: capitalize;
     font-family: 'Crimson Text', serif;
-    margin-top: 23px;
-    margin-left: 20px;
+    margin-top: 17px;
+   
 }
 
 /* lever name h1 */
@@ -382,7 +448,7 @@ nav ul li a:hover{
 
 .div1{
 
-    padding: 0px 160px!important;
+    padding: 0px 180px!important;
      height: 100vh;
     width: 100%;
     
@@ -511,6 +577,7 @@ nav ul li a:hover{
     .letest{
         width: 100%!important;
         height: 300px!important;
+        margin-bottom: 100px;
     }
     .letest img{
         width: 100%!important;
@@ -549,6 +616,11 @@ nav ul li a:hover{
 
         display: none;
     }
+    .captions-slider p{
+
+        font-size: 1.25rem;
+        text-transform: capitalize;
+    }
 
     .div1{
 
@@ -565,6 +637,51 @@ nav ul li a:hover{
         width: 105px!important;
         height: 170px!important;
 
+    }
+
+    .wrapper{
+        height: 56px!important;
+
+    }
+
+    .wrapper nav{
+        height: 56px!important;
+    }
+    .wrapper .header{
+        height: 56px!important;
+    }
+    nav ul li a {
+        color: #fff!important;
+    }
+
+    .logo{
+        margin-top: 5px;
+    }
+    .menu-icon i{
+        margin-top: 20px;
+    }
+    .logo a{
+        color: #fff;
+        margin-top: 0px;
+    }
+    .menu-icon{
+        padding: 0px 20px;
+    }
+
+    .captions-slider1{
+
+        position: absolute;
+        top: 200px;
+        left: 45px;
+        color:black;
+        background-color: white;
+        width: 330px;
+        height: 160px;
+        border: 1px solid rgba(0, 0, 0, 0.20);
+       
+        
+        
+    
     }
 
 }
