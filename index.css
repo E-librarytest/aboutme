@@ -625,8 +625,8 @@ nav ul li a:hover{
 
     .div1{
 
-        padding-left: 21px!important;
-        padding-right: 0px!important;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
     }
 
     .home-div{
@@ -636,13 +636,15 @@ nav ul li a:hover{
 
     .captions{
 
-        margin-top:140px!important ;
+        margin-top:117px!important ;
     }
 
     .owl-carousel .owl-item{
 
-        width: 105px!important;
-        height: 170px!important;
+        width: 95px!important;
+        height: 150px!important;
+        margin-left: 13px!important;
+
 
     }
 
@@ -682,6 +684,7 @@ nav ul li a:hover{
         left: 45px;
         color:black;
         background-color: white;
+        margin: 0px auto;
         width: 330px;
         height: 160px;
         border: 1px solid rgba(0, 0, 0, 0.20);
