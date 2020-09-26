@@ -16,6 +16,8 @@
     /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
     /* padding-top: 20px; */
     padding-left: 20px!important;
+   
+    
 }
 
 .titlebar{
@@ -337,6 +339,7 @@ nav ul li a:hover{
 .levelname1{
     margin-top: 15px;
     font-family: 'Crimson Text', serif;
+    color: #f1b815!important;
 }
 
 .captions-slider{
@@ -351,6 +354,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
     
 
@@ -415,7 +419,8 @@ nav ul li a:hover{
 
     text-transform: capitalize;
     font-family: 'Crimson Text', serif;
-    margin-top: 50px;;
+    margin-top: 50px;
+    color: #f1b815!important;
 }
 
 /* line */
@@ -460,15 +465,19 @@ nav ul li a:hover{
     height: 201px!important;
 	width: 130px!important;
     border: 1px solid;
-    border-radius: 5px;
-    /* margin-left: 30px; */
+   
+    background: linear-gradient(to bottom,rgba(0,0,0,.4) 1%,rgba(0,0,0,.6),rgba(0,0,0,.4));
+    box-shadow: inset 0 0 40px rgba(255,255,255,0);
+    
 }
+
 
 .box{
 
-    height: 100%;
+    height:100%!important;
     width: 100%;
     position: relative!important;
+    
 }
 
 .box img{
@@ -476,25 +485,27 @@ nav ul li a:hover{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 5px;
+    
 }
 
 .box .captions {
     
     position: absolute!important;
-    top: 0;
+    
+    bottom: 0;
     left: 0;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 25%;
+    color: white;
+    background-color: black;
+    height: 20%;
     width: 100%;
-    margin-top: 155px;
+    /* margin-top: 155px; */
     display: flex;
     align-items: center;
     opacity: 1;
     justify-content: center;
     transition: 0.4s all linear;
-    padding-left: 20px;
+    
+    
 }
 
 .box .captions p{
@@ -502,9 +513,11 @@ nav ul li a:hover{
         font-size: 15px;
         white-space: nowrap;
         overflow: hidden;
+        margin-bottom: 0px;
         text-overflow: ellipsis;
         transition:text-indent 5s linear;
         font-family: 'Roboto Mono', monospace;
+        padding-left: 15px;
 }
 
 .box .captions:hover p{
@@ -559,6 +572,13 @@ nav ul li a:hover{
 
 .owl-dots{
     display: none;
+}
+
+.mslider{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: antiquewhite;
 }
 
 @media(max-width: 500px){
@@ -625,8 +645,9 @@ nav ul li a:hover{
 
     .div1{
 
-        padding-left: 20px!important;
-        padding-right: 20px!important;
+        /* padding-left: 20px!important;
+        padding-right: 20px!important; */
+        max-width: 100%!important;
     }
 
     .home-div{
@@ -643,9 +664,14 @@ nav ul li a:hover{
 
         width: 95px!important;
         height: 150px!important;
-        margin-left: 13px!important;
+        margin-left: 10px!important;
 
 
+    }
+
+    .owl-item:first-child{
+
+        margin-right: 53px!important;
     }
 
     .wrapper{
@@ -697,6 +723,10 @@ nav ul li a:hover{
         border: 1px solid rgba(0, 0, 0, 0.20);
         padding: 5px;
         
+    }
+    .owl-stage-outer{
+
+        width: 100%!important;
     }
 
 }
