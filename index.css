@@ -584,12 +584,13 @@ nav ul li a:hover{
 @media(max-width: 500px){
 
     .div1{
-        padding: 50px 30px!important;
+        padding: 50px 20px!important;
     }
 
 }
 
 /* book shell end */
+
 
 
 @media(max-width: 500px){
@@ -671,7 +672,8 @@ nav ul li a:hover{
 
     .owl-item:first-child{
 
-        margin-right: 53px!important;
+        margin-right: auto!important;
+        
     }
 
     .wrapper{
