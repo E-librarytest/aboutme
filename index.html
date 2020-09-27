@@ -326,10 +326,11 @@
                 
                   <a href="#"><img src="./img/pic1.jpg" alt="pic"></a>
                   <div class="captions">
-                      <p>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
                 
                 </div>
+                
                 <div class="box"> 
                   <a href="#"> <img src="./img/pic2.jpg" alt="pic"> </a>
                     <div class="captions">
@@ -391,7 +392,7 @@
          <!-- ......................book shell End.......................      -->
     </div>
 
-
+    
     
     
 
@@ -407,14 +408,27 @@
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:25,
+    margin:10,
     responsiveClass:true,
     responsive:{
         0:{
             items:2,
             nav:false,
-            margin: 5,
+            margin: 10,
             // center:true
+        },
+
+        375:{
+            items:2,
+            nav:false,
+            margin: 10,
+            
+        },
+        425:{
+            items:2,
+            nav:false,
+            margin: 5,
+            
         },
 
         500:{
